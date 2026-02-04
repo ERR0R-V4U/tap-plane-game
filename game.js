@@ -18,7 +18,7 @@ const poleImg = new Image();
 poleImg.src = "assets/pole.png";
 
 // Sounds
-const bgSound = new Audio("sounds/bg.mp3");
+const bgSound = new Audio("sounds/bg.wav");
 bgSound.loop = true;
 
 const flySound = new Audio("sounds/fly.wav");
