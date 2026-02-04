@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>Tap Plane Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- START SCREEN -->
+<div id="startScreen">
+  <h2>আপনার নাম লিখুন</h2>
+  <input type="text" id="playerName" placeholder="Your Name">
+  <button onclick="startGame()">Start Game</button>
+</div>
+
+<!-- GAME OVER -->
+<div id="gameOver">
+  <h2 id="finalText"></h2>
+  <button onclick="restartGame()">Restart</button>
+  <h3>Leaderboard</h3>
+  <ul id="leaderboard"></ul>
+</div>
+
+<canvas id="game"></canvas>
+
+<script src="game.js"></script>
+</body>
+</html>
